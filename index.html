@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Rock Paper Scissors</h1>
+  </header>
+
+  <main>
+    <div class="scoreboard">
+      <span>Player: <span id="player-score">0</span></span>
+      <span>Computer: <span id="computer-score">0</span></span>
+    </div>
+
+    <div class="choices">
+      <button class="choice" data-choice="rock">✊ Rock</button>
+      <button class="choice" data-choice="paper">✋ Paper</button>
+      <button class="choice" data-choice="scissors">✌️ Scissors</button>
+    </div>
+
+    <div class="result">
+      <p id="result-text">Make your choice!</p>
+      <p id="player-choice"></p>
+      <p id="computer-choice"></p>
+    </div>
+
+    <button id="reset-btn">Reset Game</button>
+  </main>
+
+  <footer>
+    <p>Created by Wilfred Mallari</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
